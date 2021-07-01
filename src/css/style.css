@@ -1,0 +1,65 @@
+html{
+    background-color: #c44c5c;
+
+}
+
+div{
+    color: white;
+    margin: auto;
+    width: 500px;
+    text-align: center;
+}
+
+.displayCountdown {
+    height: 150px;
+
+}
+
+.displayControls{
+    background-color: thistle;
+}
+
+.sessionButton{
+    margin: 0px;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: #c44c5c;
+    background-color: white;
+}
+
+#addButton{
+    margin: 25px;
+    margin-left: 0px;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: #c44c5c;
+    background-color: white;
+}
+
+#textBox {
+    margin: 25px;
+    margin-right: 5px;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: #c44c5c;
+    background-color: white;
+}
+
+
+#displayMode {
+    margin-bottom: 0px;;
+}
+
+#displayTimer{
+    font-size: 100px;
+    margin-top: 0px;
+}
+
+#displayText{
+    color: white;
+    background-color: #b85d69;
+    text-align: auto;
+}

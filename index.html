@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel= "stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <div>
+        <h1>Pomodoro Timer</h1>
+    </div>
+    <div>
+        <div class = "displayCountdown">
+            <p id = "displayMode"></p>
+            <p id = "displayTimer"></p>
+        </div>
+            <button class = "sessionButton" id = "startSession">Start Session</button>
+            <button class = "sessionButton" id = "endSession" style="display: none;">End Session</button>
+    </div>
+    <div>
+        <input type="text" id = "textBox"><button id ="addButton">+</button>
+    </div>
+    <div id= "displayText">
+    </div>
+
+    <script src= "src/js/script.js"></script>
+</body>
+</html>
